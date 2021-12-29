@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Wordle-Slayer</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+  <div id="progress-bar"></div>
+
+  <h1 id="title">WORDLE <p class="slayer">SLAYER</p></h1>
+
+  <div id="description">Enter a word and calculate how many possibilities it can rule out on the  first try, accross all possible solutions.<br/>The <span class="slayer">Wordle-Slayer</span> is the word that can strike out the most.<br/>To this day, its exact identity is still unknown.</div>
+
+  <br/>
+
+  <input id="input" type="text" maxlength="5" size=5 placeholder="WRITE" />
+
+  <h1><input id="slay_button" type="button" value="SLAY"  onclick="slay();"/></h1>
+  <h1 id="score">SLAYER SCORE: <p id="score_value" >50051</p></h1>
+
+  <script type="text/javascript" src="js/wordle words As.js"></script>
+  <script type="text/javascript" src="js/wordle words Ls.js"></script>
+	<script type="text/javascript" src="js/helper.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+
+  </body>
+</html>

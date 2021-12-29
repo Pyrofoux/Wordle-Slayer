@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Clear Sans";
+  src: url("./font/ClearSans-Medium.ttf") format("truetype");
+}
+
+
+body
+{
+	text-align:center;
+  font-family:"Clear Sans";
+  font-size:24px;
+}
+
+
+#progress-bar
+{
+  background-color:orange;
+  width:0%;
+  height:100%;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+}
+
+h1
+{
+	font-family:"Clear Sans";
+	color:black;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+	font-size:36px;
+	/*color:#d7dadc;*/
+}
+
+.slayer
+{
+	display:inline-block;
+	color:firebrick;
+	text-decoration: line-through firebrick;
+	text-decoration-thickness:3px;
+}
+
+#input
+{
+  font-family:"Clear Sans";
+  font-size:36px;
+  letter-spacing: 0.2rem;
+  text-align:center;
+  text-transform: uppercase;
+  border: solid 3px #d7dadc;
+}
+
+#score_value
+{
+  display:inline-block;
+}
+
+#slay_button
+{
+  color:firebrick;
+  font-family:"Clear Sans";
+  font-size:24px;
+  letter-spacing: 0.2rem;
+  background-color:white;
+  border: solid 3px firebrick;
+}
+
+#slay_button:hover
+{
+  cursor:pointer;
+  background-color:black;
+  color:white;
+}
+
+#score_value
+{
+  color:firebrick;
+}
+
+#score
+{
+  display:none;
+}
+
+#description
+{
+  text-align:center;
+  width:50%;
+  margin:auto;
+}
