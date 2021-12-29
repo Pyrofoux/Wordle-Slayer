@@ -39,6 +39,7 @@ h1
 	color:firebrick;
 	text-decoration: line-through firebrick;
 	text-decoration-thickness:3px;
+  font-size:1em;
 }
 
 #input
